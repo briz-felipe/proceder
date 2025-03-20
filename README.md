@@ -12,7 +12,7 @@ Este é um projeto desenvolvido com o framework **Django**.
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/briz-felipe/proceder.git
 cd proceder
 ```
 
