@@ -1,0 +1,4 @@
+.env
+.vscode/
+env/
+proceder_django/__pycache__
