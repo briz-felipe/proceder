@@ -1,4 +1,4 @@
-# Projeto Django
+# Proceder Django
 
 Este é um projeto desenvolvido com o framework **Django**.
 
