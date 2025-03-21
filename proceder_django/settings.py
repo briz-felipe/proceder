@@ -36,7 +36,9 @@ ALLOWED_HOSTS = [
     "https://django.blindou.me",
     "https://www.django.blindou.me",
     "https://blindou.me",
-    "blindou.me"
+    "django.blindou.me",
+    ".blindou.me",
+    
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -45,11 +47,11 @@ CSRF_TRUSTED_ORIGINS = [
     "https://django.blindou.me",
     "https://www.django.blindou.me",
     "https://blindou.me",
-    "blindou.me"
+    "django.blindou.me",
+    ".blindou.me",
 ]
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-
 
 
 # Application definition
