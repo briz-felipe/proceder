@@ -32,8 +32,22 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '10.10.10.212',
-    'django.blindou.me'
+    'django.blindou.me',
+    "https://django.blindou.me",
+    "https://www.django.blindou.me",
+    "https://blindou.me",
+    "blindou.me"
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    '10.10.10.212',
+    'django.blindou.me',
+    "https://django.blindou.me",
+    "https://www.django.blindou.me",
+    "https://blindou.me",
+    "blindou.me"
+]
+
 
 
 # Application definition
