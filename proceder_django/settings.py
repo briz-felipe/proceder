@@ -53,6 +53,10 @@ CSRF_TRUSTED_ORIGINS = [
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
+SESSION_COOKIE_SECURE = True  # Envia cookies de sessão apenas por HTTPS
+CSRF_COOKIE_SECURE = True     # Envia cookies CSRF apenas por HTTPS
+SESSION_COOKIE_DOMAIN = '.blindou.me'  # Domínio principal
+CSRF_COOKIE_DOMAIN = '.blindou.me'    # Domínio principal
 
 # Application definition
 
