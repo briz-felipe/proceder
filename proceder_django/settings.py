@@ -31,14 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '10.10.10.212',
-    'django.blindou.me',
-    "https://django.blindou.me",
-    "https://www.django.blindou.me",
-    "https://blindou.me",
-    "django.blindou.me",
-    ".blindou.me",
-    
+    "*"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
